@@ -1,0 +1,10 @@
+div {
+  /* padding: 10px; */
+  min-height: 50px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.b ~ div {
+  border: 2px solid black;
+}

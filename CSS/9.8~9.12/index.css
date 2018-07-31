@@ -1,0 +1,46 @@
+/* a:link {
+  color: blue;
+}
+
+a:visited {
+  color: gray;
+}
+
+ button:hover,
+ a:hover {
+   background: red;
+ } */
+a {
+  text-decoration: none; 
+}
+
+p {
+   /* font-family: "微软雅黑", sans-serif;
+   font-weight: 900;
+   font-size: inherit;  //200%//15px */
+   text-align: justify;
+   line-height: 2;
+   text-decoration: line-through;
+ }
+
+ button:active {
+   background: #333;
+ }
+
+input:focus {
+  outline: none;
+  background-color: #aaa;
+}
+
+.help:after{
+  content: "[?]";
+  color: blue;
+}
+
+div p:first-child {
+  color: blue;
+}
+
+div p:nth-child(3) {
+  color: red;
+}

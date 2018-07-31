@@ -1,0 +1,60 @@
+@import url(test.css);
+
+h1,h2 {
+  color: gray;
+  background-color: black;
+}
+
+h2,h3 {
+ border: 3px solid green;
+}
+
+h3 {
+
+}
+
+p,div {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.red.bold {
+  border: solid 1px red;
+}
+
+#logo {
+  color: grey;
+}
+
+#footer {
+  color: yellow;
+}
+
+[title$="登录"] {
+  color: gray;
+  border: 1px dotted #000;
+}
+
+a[href^="https"] {
+}
+
+.button,
+input[type="submit"]{
+  border: 0;
+}
+
+input[type="text"]{
+  width: 100%;
+  padding: 5px;
+}
